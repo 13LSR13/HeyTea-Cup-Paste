@@ -1,1 +1,1 @@
-{"buildCommand":"npm run frontend:build","installCommand":"npm install","outputDirectory":"frontend/dist"}
+{"installCommand":"pnpm install","buildCommand":"pnpm run build","outputDirectory":"frontend/dist"}
