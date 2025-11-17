@@ -1,1 +1,1 @@
-{"installCommand":"pnpm install","buildCommand":"pnpm run build","outputDirectory":"frontend/dist"}
+{"installCommand":"corepack enable pnpm && pnpm install","buildCommand":"pnpm run build","outputDirectory":"frontend/dist"}
