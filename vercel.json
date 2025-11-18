@@ -1,1 +1,1 @@
-{"installCommand":"npx pnpm@9.12.2 install --frozen-lockfile","buildCommand":"npx pnpm@9.12.2 --filter ./ run build","outputDirectory":"dist"}
+{"installCommand":"npx pnpm@9.12.2 install --frozen-lockfile","buildCommand":"npx pnpm@9.12.2 run build","outputDirectory":"dist"}
