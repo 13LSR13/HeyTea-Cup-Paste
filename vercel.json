@@ -1,1 +1,9 @@
-{"installCommand":"npx pnpm@9.12.2 install --frozen-lockfile","buildCommand":"npx pnpm@9.12.2 run build","outputDirectory":"dist"}
+{
+  "installCommand": "npx pnpm@9.12.2 install --frozen-lockfile",
+  "buildCommand": "npx pnpm@9.12.2 run build",
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/(.*)", "dest": "/dist/$1" },
+    { "src": "/.*", "dest": "/dist/index.html" }
+  ]
+}
